@@ -5,7 +5,7 @@ var nome = "Victor";
 console.log(nome); // "Victor"
 
 // Number (número)
-// em python temos o int e o float
+// em python temos o int e o float 
 var idade = 21;
 console.log(idade); // 21
 

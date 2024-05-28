@@ -18,7 +18,7 @@ exibe3Hello();
 var x=5;
 function calculoDePotencia(base,expoente)
 //aqui passei dois valores como (parâmetros da função)
-//a função recebe a base e o expoente , como parâmetros
+//a função recebe a base e o expoente como parâmetros
 {
 
     return base**expoente;
@@ -40,3 +40,5 @@ function divisaoPor2(num1){
 console.log(resultado)
 
 // irá retornar erro , pois tentamos printar resultado fora do bloco da função
+//mesmo usando o var , irá retornar erro ? 
+//Se sim , porque ?

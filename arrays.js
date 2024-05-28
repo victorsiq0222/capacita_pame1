@@ -51,3 +51,21 @@ matriz.shift()
 matriz.unshift([3,2,1])
 //[[3,2,1],[4,5,6],[10,11,12]]]
 
+
+// matriz.concat  vai juntas as listas em uma única lista
+
+let list1 = [1, 2, 3];
+let list2 = [4, 5, 6];
+
+let concatenatedList = list1.concat(list2);
+console.log(concatenatedList); // [1, 2, 3, 4, 5, 6]
+
+//   
+
+let numbers = [1, 2, 3, 4, 5];
+
+let sum = numbers.reduce((total, number) => total + number, 0);
+console.log(sum); // 15
+
+
+
