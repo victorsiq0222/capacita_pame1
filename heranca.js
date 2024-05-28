@@ -3,7 +3,7 @@ class Pessoa {
     constructor(nome, idade, altura) {
         this.nome = nome; // cada pessoa terá um nome determinado
         this.idade = idade; // cada pessoa terá uma idade determinada
-        this.altura = altura;
+        this.altura = altura; //cada pessoa terá uma altura determinada
     }
 
     correr() {

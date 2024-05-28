@@ -6,8 +6,8 @@ console.log(idade)
 var end  = requisicao.question('Qual o endereço?\n')
 console.log(end)
 
-console.log("sua idade é",idade)
-console.log("seu end é :",end)
+console.log("sua idade é :",idade)
+console.log("seu endereço é :",end)
 
 
 

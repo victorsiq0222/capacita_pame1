@@ -36,8 +36,10 @@ let primeiroelementoTerceiraLista = matriz[2][0]
 //são basicamente as operações que podemos realizar com as listas 
 
 //array.pop()- remove o último elemento da lista
-matriz.pop()
-// [[1,2,3],[4,5,6]]
+let removelista = matriz.pop(); // Remove a última linha da matriz e armazena em removelista
+console.log(matriz); // Exibe a matriz sem a última linha
+ // Exibe a linha removida
+
 
 //array.push(elemento)- add elemento no final das lista.
 matriz.push([10,11,12])
